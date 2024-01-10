@@ -1,8 +1,18 @@
-import React from 'react';
+import React, {useRef} from 'react';
 import Typed from 'react-typed';
 
 
+
 const Intro = () => {
+    const About = useRef(null);
+
+    const scrollToSection = (elementRef) => {
+        window.scrollTo({
+            top: elementRef.current.offsetTop,
+            behavior: 'smooth'
+        })
+    }
+
     return(
         <div className='text-white'>
             <div className='max-w-[800px] mt-[-96] w-full h-screen mx-auto text-center flex flex-col justify-center'>
@@ -17,7 +27,8 @@ const Intro = () => {
                         loop/>
                 </div>
                 <p className='md:text-2xl text-xl fond-bold text-gray-500'>Passionate about creating projects and learning new technologies. </p>
-                <button className='bg-[#00df9a] w-[300px] rounded-md font-medium my-6 mx-auto py-3 text-black'>Get To Know Me</button>
+                <button onClick={() => scrollToSection(About)} className='bg-white w-[300px] rounded-md font-medium my-6 mx-auto py-3 text-black'>Get To Know Me</button>
+                <div ref={About}></div>
             </div>
         </div>
     )
