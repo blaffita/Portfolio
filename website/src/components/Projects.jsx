@@ -8,10 +8,10 @@ import gitLogo from '../assets/git-original.svg'
 const Projects = () => {
   return(
       <div className='w-full py-16 text-white'>
-          <div className='max-w-[1240px] mx-auto grid md:grid-cols-2'>
+          <div className='max-w-[1240px] h-[800px] mx-auto grid md:grid-cols-2'>
               <div>
-                  <h1 className='md: text-4xl sm:text-3xl text-2xl font-bold py-10'>Projects Coming Soon...</h1>
-                  <div className=' flex flex-row'>
+                  <h1 className='md: text-4xl sm:text-3xl text-2xl font-bold py-10 my-auto'>Projects Coming Soon...</h1>
+                  <div className='flex flex-row my-auto'>
                       <img className='w-[80px] mx-10 my-10' src={javaLogo} alt='/'/>
                       <img className='w-[80px] mx-10 my-10' src={reactLogo} alt='/'/>
                       <img className='w-[80px] mx-10 my-10' src={tailwindLogo} alt='/'/>

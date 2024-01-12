@@ -9,7 +9,7 @@ const Intro = () => {
     const scrollToSection = (elementRef) => {
         window.scrollTo({
             top: elementRef.current.offsetTop,
-            behavior: 'smooth'
+            behavior: 'smooth',
         })
     }
 
@@ -26,7 +26,7 @@ const Intro = () => {
                         backSpeed={140}
                         loop/>
                 </div>
-                <p className='md:text-2xl text-xl fond-bold text-gray-500'>Passionate about creating projects and learning new technologies. </p>
+                <p className='md:text-2xl text-xl font-bold text-gray-500'>Passionate about creating projects and learning new technologies. </p>
                 <button onClick={() => scrollToSection(About)} className='bg-white w-[300px] rounded-md font-medium my-6 mx-auto py-3 text-black'>Get To Know Me</button>
                 <div ref={About}></div>
             </div>
