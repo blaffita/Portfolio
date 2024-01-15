@@ -1,5 +1,5 @@
 import React from 'react';
-import Laptop from '../assets/IMG_0863.PNG'
+import Laptop from '../assets/IMG_0771.jpg'
 
 
 const About = () =>{
