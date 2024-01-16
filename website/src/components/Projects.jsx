@@ -7,7 +7,7 @@ import gitLogo from '../assets/git-original.svg'
 
 const Projects = () => {
   return(
-      <div className='w-full h-screen py-16 text-white flex justify-evenly align-middle flex-wrap'>
+      <div name='projects' className='w-full h-screen py-16 text-white flex justify-evenly align-middle flex-wrap'>
           {/* Container */}
           <div className='max-w-[1240px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
               <div>

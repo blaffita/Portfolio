@@ -4,7 +4,7 @@ import Laptop from '../assets/IMG_0771.jpg'
 
 const About = () =>{
     return(
-        <div className='w-full bg-white py-16 px-4'>
+        <div name='about' className='w-full bg-white py-16 px-4'>
             <div className='max-w-[1240px] h-[800px] mx-auto my-auto grid md:grid-cols-2'>
                 <img className='w-[550px] mx-auto my-auto rounded-md' src={Laptop} alt='/' />
 
