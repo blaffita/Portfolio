@@ -23,6 +23,9 @@ const Navbar = () =>{
                     <Link to='projects' smooth={true} duration={100}>Projects</Link>
                 </li>
                 <li className='p-4'>
+                    <Link to='skills' smooth={true} duration={100}>Skills</Link>
+                </li>
+                <li className='p-4'>
                     <Link to='contact' smooth={true} duration={100}>Contact</Link>
                 </li>
             </ul>
@@ -40,6 +43,9 @@ const Navbar = () =>{
                     </li>
                     <li className='p-4 border-b border-gray-600'>
                         <Link onClick={handleNav} to='projects' smooth={true} duration={100}>Projects</Link>
+                    </li>
+                    <li className='p-4 border-b border-gray-600'>
+                        <Link onClick={handleNav} to='skills' smooth={true} duration={100}>Skills</Link>
                     </li>
                     <li className='p-4'>
                         <Link onClick={handleNav} to='contact' smooth={true} duration={100}>Contact</Link>
