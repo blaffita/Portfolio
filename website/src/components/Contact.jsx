@@ -13,7 +13,7 @@ const Contact = () =>{
         <div name='contact' className='w-full bg-black py-20 px-4'>
             <div className='max-w-[800px] h-[800px] mx-auto '>
                 <div className='flex flex-col justify-center my-auto'>
-                    <h1 className='md: text-4xl sm:text-3xl text-2xl text-center font-bold py-2 text-white'>Contact Me</h1>
+                    <h1 className='md:text-4xl sm:text-3xl text-2xl text-center text-white font-bold py-10 my-auto'>Contact Me</h1>
                     <input className='border-2 border-white rounded-md p-2 my-4' type='name' placeholder=' Name'/>
                     <input className='border-2 border-white rounded-md p-2' type='email' placeholder=' Email'/>
                     <textarea className='border-2 border-white rounded-md p-2 my-4' name='message' rows='10' placeholder='Message' />

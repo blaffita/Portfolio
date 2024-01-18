@@ -9,7 +9,7 @@ const About = () =>{
                 <img className='w-[550px] mx-auto my-auto rounded-md' src={Laptop} alt='/' />
 
                <div className='flex flex-col justify-center'>
-                   <h1 className='md: text-4xl sm:text-3xl text-2xl font-bold py-5 px-10 mx-auto '>About Me</h1>
+                   <h1 className='md:text-4xl sm:text-3xl text-2xl text-center font-bold py-10 '>About Me</h1>
                    <p>Hello! I am a Computer Science student currently pursuing my degree at The University of Texas at El Paso (UTEP). My journey in the world of technology began with a curiosity to understand how things
                        work, and it has evolved into a passion for creating innovative solutions.</p>
                    <p> As I progress in my academic journey, I am eager to delve into emerging trends within the tech industry. I believe in continuous learning and staying updated with the latest technologies and methodologies.
