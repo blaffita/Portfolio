@@ -1,5 +1,5 @@
 import React  from 'react';
-import githubLogo from '../assets/github-original.svg';
+import githubLogo from '../assets/download (1).png'
 import linkedinLogo from '../assets/linkedin-original.svg';
 import resume from '../assets/Resume (Internships).pdf';
 import resumeLogo from '../assets/images.png';
@@ -11,7 +11,7 @@ const Contact = () =>{
 
     return(
         <div name='contact' className='w-full bg-black py-20 px-4'>
-            <div className='max-w-[800px] h-[800px] mx-auto '>
+            <form method='POST' action='https://getform.io/f/44241340-71be-4bdc-b8cc-c768cd175fcf' className='max-w-[800px] h-[800px] mx-auto '>
                 <div className='flex flex-col justify-center my-auto'>
                     <h1 className='md:text-4xl sm:text-3xl text-2xl text-center text-white font-bold py-10 my-auto'>Contact Me</h1>
                     <input className='border-2 border-white rounded-md p-2 my-4' type='name' placeholder=' Name'/>
@@ -30,7 +30,7 @@ const Contact = () =>{
                         </a>
                     </div>
                 </div>
-            </div>
+            </form>
         </div>
     )
 }
