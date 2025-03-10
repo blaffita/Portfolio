@@ -1,9 +1,0 @@
-title: My Jekyll Site
-description: A simple Jekyll site
-baseurl: ""  # If deploying to a GitHub subdomain like yourusername.github.io
-url: "https://yourusername.github.io"
-
-# Plugins (GitHub Pages supports only a few)
-plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
